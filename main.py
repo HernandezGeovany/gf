@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 def main():
-    st.title("Streamlit Forms & Animal Shelter")
+    st.title("Állat menhely")
     menu = ["Home", "About"]
     choice = st.sidebar.selectbox("Menu", menu)
 
